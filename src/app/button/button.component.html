@@ -1,5 +1,5 @@
 <ul>
-  <li [class.tabulous_active]=list.change *ngFor="let list of allService.package; let i as index" [checked]="list.change" (click)="select(list.id)">
+  <li [class.tabulous_active]=list.change *ngFor="let list of allService.package; let i as index"  (click)="select(list.id)">
     <div class="" >
       <a href="#tabs-1" title="">{{list.name}}</a>
     </div>
