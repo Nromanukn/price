@@ -1,1 +1,691 @@
-/* You can add global styles to this file, and also import other style files */
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer-w3agile,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer-w3agile, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+/****-----start-body----****/
+body{
+text-align: center;
+background: url(/assets/images/bg.jpg) 0px 0px no-repeat;
+font-family: "BenchNine-Regular";
+background-size:cover;
+}
+
+@font-face{
+font-family: "BenchNine-Regular";
+src:url(/assets/fonts/BenchNine-Regular.ttf);
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+
+/* ----- Tickets Starts -----*/
+
+.tickets{
+background:url("/assets/images/tab1.jpg" ) 0px 0px no-repeat;
+background-size:cover;
+}
+
+
+.main h1{
+font-size:46px;
+padding-bottom: 40px;
+margin: 0;
+color: #fff;
+letter-spacing: 6px;
+}
+
+.tickets-padding{
+padding:60px 40px 10px 40px;
+}
+
+.grid1a-w3l, .grid2a, .grid3a {
+    width: 44%;
+	float: left;
+    margin-right: 10px;
+	background: rgba(2, 2, 2, 0.60);
+	padding:16px;
+	height:400px;
+	border-radius:6px;
+}
+
+.grid1b, .grid2b, .grid3b{
+	width:44%;
+    float: left;
+	background: rgba(2, 2, 2, 0.60);
+	padding:16px;
+	height:400px;
+	border-radius:6px;
+}
+
+.text-center-wthree {
+    text-align: center;
+    margin-top: 44px;
+}
+
+.para-a{
+margin:0 auto;
+text-align:center;
+padding-top:50px;
+letter-spacing: 2px;
+}
+
+.para-a h5{
+margin: 0px;
+padding:5px 0px 15px 0px;
+font-size: 60px;
+color: rgba(247, 34, 71, 0.75);
+}
+
+.para-a span{
+font-size:24px;
+padding-right:10px;
+font-family: "Antic-Regular";
+}
+
+.para-a p{
+margin: 0 auto;
+padding: 0px;
+text-align: center;
+color: #E0DDDD;
+font-size: 18px;
+letter-spacing: 3px;
+padding-bottom: 7px;
+}
+
+.grid1a-w3l h3, .grid2a h3, .grid3a h3 {
+    padding: 0px;
+	margin:0px;
+    padding-bottom: 10px;
+	text-align: center;
+	font-size:40px;
+	color: rgba(97, 86, 241, 1);
+}
+
+.para-b-w3ls{
+padding-top:38px;
+padding-left:8px;
+}
+
+.grid1b p, .grid2b p, .grid3b p{
+    margin: 0 5%;
+    padding: 10px 0px;
+    padding-left: 20px;
+    letter-spacing: 2.5px;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+}
+
+.grid1b span, .grid2b span, .grid3b span{
+	font-size: 20px;
+    color: rgba(247, 34, 71, 0.75);
+    font-weight: 600;
+}
+
+a.sign-up {
+    padding: 8px 16px;
+    background: rgb(216, 16, 51);
+    text-decoration: none;
+    border-radius: 4px;
+	color:#fff;
+	font-size:16px;
+}
+a.sign-up:hover{
+    background: rgba(97, 86, 241, 0.80);
+    text-decoration: none;
+	color:white;
+}
+
+.footer-w3agile{
+padding:25px 10px;
+padding-top:60px;
+}
+
+.footer-w3agile p{
+	font-size: 18px;
+    color: #fff;
+    letter-spacing: 2.5px;
+}
+
+.footer-w3agile a{
+	color:rgba(97, 86, 241, 1);
+	font-weight:600;
+	text-decoration:none;
+	font-size:18px;
+}
+.footer-w3agile a:hover{
+	color:rgb(216, 16, 51);
+	text-decoration:none;
+}
+
+/* -----  Tickets Tabs Starts -----*/
+
+#wrapper {
+width: 44%;
+margin: 0 auto;
+height:500px;
+}
+
+#tabs4 {
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+#tabs4 ul{
+	margin: 0 auto;
+	text-align: center;
+    margin:0px;
+    padding: 0px;
+}
+
+#tabs4 li {
+display: inline-block;
+}
+
+#tabs4 li a {
+	display: block;
+	padding: 15px 30px;
+	background: rgba(247, 34, 71, 0.75);
+	text-decoration: none;
+	color: #fff;
+	border-radius: 4px;
+	font-size:20px;
+	cursor: pointer;
+	letter-spacing:2px;
+}
+
+#tabs4 li a:hover {
+	background: rgb(78, 74, 99);
+}
+
+.tabulous_active {
+	background: rgba(97, 86, 241, 0.54) !important;
+	color: #fff !important;
+}
+
+#tabs_container {
+	padding:0px;
+	position: relative;
+}
+
+#tabs-1,#tabs-2,#tabs-3 {
+width: 100%;
+margin: 0 auto;
+padding:0px;
+}
+
+
+.tabulousclear {
+	display: block;
+	clear: both;
+}
+
+#tabs-1 h4,#tabs-2 h4,#tabs-3 h4{
+padding:0px;
+margin:0px;
+padding-bottom:30px;
+font-size:30px;
+color:#fff;
+}
+
+.transition {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+}
+
+.make_transist {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.hidescale {
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-o-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.showscale {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+}
+
+.hideleft {
+	-webkit-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	transform: translateX(-100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.showleft {
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+}
+
+.hidescaleup {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.showscaleup {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+}
+
+.hideflip {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+
+	-webkit-transform: rotatey(-90deg) scale(1.1);
+	-moz-transform: rotatey(-90deg) scale(1.1);
+	-o-transform: rotatey(-90deg) scale(1.1);
+	-ms-transform: rotatey(-90deg) scale(1.1);
+	transform: rotatey(-90deg) scale(1.1);
+
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.showflip {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+
+	-webkit-transform: rotatey(0deg) scale(1);
+	-moz-transform: rotatey(0deg) scale(1);
+	-o-transform: rotatey(0deg) scale(1);
+	-ms-transform: rotatey(0deg) scale(1);
+	transform: rotatey(0deg) scale(1);
+
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.tabulousclear {
+	display: block;
+	clear: both;
+}        /*  ------ Tickets Tabs Ends  -------------*/
+
+/* -------- Tickets Ends -----------*/
+
+
+/*-- responsive media queries --*/
+
+@media screen and (max-width:1440px){
+#wrapper {
+    width: 46%;
+}
+}
+
+@media screen and (max-width:1366px){
+#wrapper {
+    width: 50%;
+}
+}
+
+@media screen and (max-width:1280px){
+#wrapper {
+    width: 54%;
+}
+}
+
+@media screen and (max-width:1080px){
+#wrapper {
+    width: 66%;
+}
+}
+
+@media screen and (max-width:1024px){
+#wrapper {
+    width: 68%;
+}
+}
+
+@media screen and (max-width:991px){
+#wrapper {
+    width: 70%;
+}
+}
+
+@media screen and (max-width:800px){
+#wrapper {
+    width: 78%;
+}
+.main h1 {
+    font-size: 44px;
+}
+#tabs4 li a {
+    padding: 12px 24px;
+    font-size: 18px;
+}
+.grid1a-w3l, .grid2a, .grid3a {
+    width: 43%;
+}
+.grid1a-w3l h3, .grid2a h3, .grid3a h3 {
+    font-size: 36px;
+}
+.para-a h5 {
+    font-size: 58px;
+}
+.grid1b, .grid2b, .grid3b {
+    width: 43%;
+}
+.grid1b p, .grid2b p, .grid3b p {
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width:768px){
+#wrapper {
+    width: 80%;
+}
+.grid1b p, .grid2b p, .grid3b p {
+    padding-left: 6px;
+}
+}
+
+@media screen and (max-width:736px){
+#wrapper {
+    width: 84%;
+}
+}
+
+@media screen and (max-width:667px){
+.tickets-padding {
+    padding: 40px 40px 10px 40px;
+}
+#wrapper {
+    width: 94%;
+}
+}
+
+@media screen and (max-width:640px){
+#wrapper {
+    width: 98%;
+}
+}
+
+@media screen and (max-width:600px){
+.tickets-padding {
+    padding: 30px 40px 10px 40px;
+}
+
+.main h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.grid1a-w3l, .grid2a, .grid3a, .grid1b, .grid2b, .grid3b {
+    width: 42%;
+	height:360px;
+}
+
+.para-a {
+    padding-top: 40px;
+}
+.para-b-w3ls {
+    padding-top: 28px;
+}
+
+#tabs4 li a {
+    padding: 10px 20px;
+}
+.grid1a-w3l h3, .grid2a h3, .grid3a h3 {
+    font-size: 34px;
+}
+.para-a h5 {
+    font-size: 54px;
+}
+.para-a p {
+    font-size: 17px;
+    padding-bottom: 4px;
+}
+.text-center-wthree {
+    margin-top: 40px;
+}
+
+.grid1b p, .grid2b p, .grid3b p {
+    padding-left: 0px;
+}
+
+.grid1b p, .grid2b p, .grid3b p {
+    font-size: 17px;
+}
+
+.grid1b p, .grid2b p, .grid3b p {
+    padding: 8.5px 0px;
+}
+.footer-w3agile {
+    padding-top: 10px;
+}
+.footer-w3agile p {
+    font-size: 16px;
+}
+}
+
+@media screen and (max-width:576px){
+#wrapper {
+    width: 100%;
+}
+}
+
+@media screen and (max-width:480px){
+.tickets-padding {
+    padding: 30px 10px 10px 10px;
+}
+#wrapper {
+    height:450px;
+}
+.grid1a-w3l, .grid2a, .grid3a, .grid1b, .grid2b, .grid3b {
+    width: 41%;
+	height:320px;
+}
+.main h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+#tabs4 li a {
+    padding: 8px 18px;
+    font-size: 16px;
+}
+.grid1a-w3l h3, .grid2a h3, .grid3a h3 {
+    font-size: 32px;
+}
+.para-a h5 {
+    padding: 0px 0px 10px 0px;
+    font-size: 50px;
+}
+.para-a p {
+    font-size: 16px;
+}
+.text-center-wthree {
+    margin-top: 26px;
+}
+a.sign-up {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+.para-b-w3ls {
+    padding-left: 0px;
+}
+.grid1b p, .grid2b p, .grid3b p {
+	padding: 7px 0px;
+	font-size:16px;
+}
+.grid1b span, .grid2b span, .grid3b span {
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width:414px){
+.main h1 {
+    font-size: 34px;
+}
+.grid1a-w3l, .grid2a, .grid3a, .grid1b, .grid2b, .grid3b {
+    width: 40%;
+	height:320px;
+}
+
+.grid1a-w3l, .grid2a, .grid3a {
+   	margin-right: 6px;
+}
+}
+
+@media screen and (max-width:384px){
+#wrapper {
+    height: 680px;
+}
+.tickets-padding {
+    padding: 20px 30px 10px 30px;
+}
+.main h1 {
+    font-size: 30px;
+	 padding-bottom: 14px;
+}
+#tabs4 li a {
+    padding: 6px 16px;
+    font-size: 14px;
+}
+.grid1a-w3l, .grid2a, .grid3a {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.grid1a-w3l, .grid2a, .grid3a, .grid1b, .grid2b, .grid3b {
+    width: 90%;
+    height: 260px;
+    float: none;
+}
+.para-a, .para-b-w3ls {
+    padding-top: 10px;
+}
+.grid1a-w3l h3, .grid2a h3, .grid3a h3 {
+    padding-bottom: 4px;
+}
+.para-a h5 {
+    padding: 0px;
+}
+.grid1b p, .grid2b p, .grid3b p {
+    padding: 5px 0px;
+    text-align: center;
+}
+.footer-w3agile p {
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width:320px){
+
+#tabs4 li a {
+    padding: 6px 14px;
+    font-size: 14px;
+}
+.grid1a-w3l, .grid2a, .grid3a, .grid1b, .grid2b, .grid3b {
+    width: 88%;
+}
+}

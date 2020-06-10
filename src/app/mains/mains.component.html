@@ -1,0 +1,28 @@
+<div id="tabs_container">
+  <div id="tabs-1" *ngFor="let list2 of allService.package; let i as index">
+    <div class="" *ngIf="list2.change == true" [checked]="list2.change">
+      <section class="grid1a-w3l">
+        <section class="para-a">
+          <h3>{{list2.name}}</h3>
+          <h5> {{list2.price}}</h5>
+          <p>{{list2.site}} Website</p>
+          <p>{{list2.yearUpdate}} Year Update</p>
+          <section class="text-center-wthree">
+            <a href="#" class="sign-up">SIGN UP</a>
+          </section>
+        </section>
+      </section>
+      <section class="grid1b">
+        <section class="para-b-w3ls">
+          <p><span>{{list2.domain}}</span> Domain</p>
+          <p><span>{{list2.storage}}</span> Storage</p>
+          <p><span>{{list2.styleTemplates}}</span> Style Templates</p>
+          <p><span>{{list2.mySqlDatabases}}</span> MySQL Databases</p>
+          <p><span>{{list2.bandwidth}}</span> Bandwidth</p>
+          <p><span>{{list2.emailAccounts}}</span> Email Accounts</p>
+          <p class="text"><span>{{list2.support}}</span> Support</p>
+        </section>
+      </section>
+    </div>
+  </div>
+</div>
